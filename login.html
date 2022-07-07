@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.0.0/css/all.css">
+    <script defer src="./src/js/appFunctions.js"></script>
+    <link href="./src/css/headerBtn.css" rel="stylesheet">
+    <link href="./src/css/style.css" rel="stylesheet">
+    <link href="./src/css/login.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="background"></div>
+    <div class="mainApp"></div>
+    <div class="btnFunc">
+        <div class="container">
+            <button id="minimizeBtn" class="topBtn minimizeBtn"><i class="fal fa-window-minimize"></i></button>
+            <button id="closeBtn" class="topBtn closeBtn"><i class="fal fa-times"></i></button>
+        </div>
+    </div>
+    <div class="section login">
+        <div class="container">
+            <div class="loginBox">
+                <form onclick="login()" id="form">
+                    <input id="email" type="text" class="input" required placeholder="Adresse email" />
+                    <input id="password" type="password" class="input" required placeholder="Mot de passe" />
+                    <div class="btn-flex">
+                        <button class="loginBtn" type="submit">Connexion <i
+                            class="fa-solid fa-right-to-bracket"></i></button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-auth.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-database.js"></script>
+        <script src="./login.js"></script>
+    </body>
+    
+    </html>
