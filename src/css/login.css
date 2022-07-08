@@ -1,0 +1,89 @@
+.login {
+    background: transparent;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top:0;
+    left: 0;
+    z-index: 3;
+}
+
+.login .container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100vh;
+}
+
+.loginBox {
+    background: transparent;
+    padding: 14px 28px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.loginBox #form {
+    background: #1f1e1e;
+    padding: 14px 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.loginBox #form input {
+    font-size: 15px;
+    color: #ffffff;
+    background: #101010;
+    border: 1px solid#232323;
+    border-radius: 5px;
+    padding: 10px 14px;
+    margin: 2.5px;
+    outline: none;
+}
+
+.loginBox #form input:focus {
+    border: 1px solid#f9bb12;
+}
+
+.loginBox #form button {
+    border: none;
+    padding: 10px 20px;
+    color: #141414;
+    line-height: normal;
+    font-weight: 600;
+    background: #f9bb12;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    width: fit-content;
+    border-bottom: 3px solid #cc9a12;
+    transition: .5s ease-out;
+    font-weight: 600;
+    font-size: 15px;
+    font-family: Sen, sans-serif;
+}
+
+.loginBox #form button:hover {
+    background: #a8800f;
+}
+
+.loginBox #form button i {
+    color: #141414;
+}
+
+.loginBoxTitre {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Zen Dots', cursive;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
